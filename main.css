@@ -1,0 +1,39 @@
+div{
+    border: solid gray 1px;
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+.flexible-container{
+    display: flex;
+
+    margin: 5%;
+}
+
+.header{
+    background-color: azure;
+    height: 100px;
+    margin: 5%;
+
+}
+
+.main{
+    background-color: rgb(216, 107, 19);
+    flex-grow: 60%;
+    width: 70%;
+    justify-content: center;
+    
+}
+
+.sidebar{
+    background-color: rgb(0, 102, 128);
+}
+.blocks{
+    display: flex;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
